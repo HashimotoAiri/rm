@@ -1,0 +1,916 @@
+@charset "UTF-8";
+
+body {
+	/*font-family: "ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro W3","ヒラギノ角ゴ Pro W3","Osaka";*/
+	/*background: #FFF url(../images/bg.png);*/
+}
+
+/*----------------------------------------------------
+ 楽天タグ用
+----------------------------------------------------*/
+body#TOP {
+	background: #4e3f2c url(../images/bg_1.png) top left repeat-x !important;
+}
+
+body#TOP #htlHeader {
+	background: none !important;
+}
+body#TOP #htlHeader ul li {
+	background-color: none !important;
+    box-shadow: none !important;
+}
+body#TOP #trvlHtlTabNav ul li span {
+	background-color: #E2D3D7 !important;
+}
+body#TOP #trvlHtlSubNav ul {
+	background-color: #E2D3D7 !important;
+}
+
+body#TOP #RthExcursionArea a {
+	color: #fff !important;
+}
+body#TOP p.RthChainLink a {
+	color: #fff !important;
+}
+body#TOP p.RthChainLink a {
+	color: #fff !important;
+}
+body#TOP #RthPagetop a{
+	color: #fff !important;
+}
+
+/*----------------------------------------------------
+ wrapper
+----------------------------------------------------*/
+#RESOLwrapper {
+	overflow: hidden;
+	width: 950px;
+	text-align: left;
+    font-family: "ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro W3","ヒラギノ角ゴ Pro W3","Osaka";
+	color: #fafafa;
+	font-size: 14px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body,
+html,
+#RESOLwrapper p,
+#RESOLwrapper ul,
+#RESOLwrapper ol,
+#RESOLwrapper li,
+#RESOLwrapper h1,
+#RESOLwrapper h2,
+#RESOLwrapper h3,
+#RESOLwrapper h4,
+#RESOLwrapper h5,
+#RESOLwrapper dl,
+#RESOLwrapper dt,
+#RESOLwrapper dd {
+	margin: 0;
+	padding: 0;
+}
+
+
+#RESOLwrapper #bg {
+	width: 950px;
+    margin: 0 auto;
+	padding: 0;
+}
+
+#RESOLwrapper iframe {
+	width: 730px;
+	height: 550px;
+    margin: 0 auto;
+	padding: 0;
+}
+
+#RESOLwrapper ul li,
+#RESOLwrapper ol li {
+	list-style: none;
+}
+#RESOLwrapper img {
+	border-style: none;
+}
+#RESOLwrapper h2,h3 {
+	clear: both;
+	font-size: 13px;
+}
+#RESOLwrapper a {
+    color: #720626;
+    text-decoration: underline;
+}
+#RESOLwrapper a:hover {
+    color: #720626;
+    text-decoration: none;
+}
+
+#RESOLwrapper .red {
+	color: #990000 !important;
+}
+#RESOLwrapper .reds {
+	color: #990000;
+	font-size: 11px;
+	line-height: 1.4;
+}
+#RESOLwrapper .ora {
+	color: #DFBB4A;
+}
+#RESOLwrapper .pink {
+	color: #E6B991;
+}
+#RESOLwrapper .green {
+	color: #305814;
+}
+
+#RESOLwrapper a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
+
+/*----------------------------------------------------
+ table style
+----------------------------------------------------*/
+#RESOLwrapper table.table {
+    border-top: 1px solid #7e6b5a;
+	border-bottom: 1px solid #7e6b5a;
+}
+#RESOLwrapper table.table tr th {
+	font-size: 13px;
+	line-height: 1.8em;
+	font-weight: normal;
+    background-color: #59493f;
+	padding: 3px;
+}
+#RESOLwrapper table.table tr td {
+	font-size: 13px;
+	padding: 3px 3px 3px 10px;
+}
+
+/*----------------------------------------------------
+ 10banner
+----------------------------------------------------*/
+#RESOLwrapper #banner10 {
+	width: 950px;
+	background: #FFF;
+	font-size: 14px;
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
+}
+#RESOLwrapper #banner10 a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
+
+/*----------------------------------------------------
+indexheader
+----------------------------------------------------*/
+#RESOLwrapper #wrapperheader {
+	width: 950px;
+    margin: 0;
+    padding: 0;
+}
+
+#RESOLwrapper #wrapperheader .islider iframe {
+    height: 500px;
+    width: 950px;
+    margin: 0 auto;
+	padding: 0;
+    box-shadow:rgba(22, 22, 14, 0.8) 0px 3px 6px 3px;
+}
+
+#RESOLwrapper #wrapperheader #menu {
+    height: 75px;
+    width: 950px;
+    padding:0;
+	margin:-70px 0 20px 0;
+    background: #16160e url(../images/h_m_border.png) bottom center no-repeat;
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
+#RESOLwrapper #wrapperheader .logo {
+float: left;
+}
+#RESOLwrapper #wrapperheader .logo img{
+vertical-align:middle;
+}
+#RESOLwrapper #wrapperheader .gnavi ul {
+float: right;
+margin: 0;
+padding: 0; 
+list-style: none;
+}
+#RESOLwrapper #wrapperheader .gnavi ul li { 
+display: inline; 
+padding:0; 
+margin:0;
+float: left;
+}
+#RESOLwrapper #wrapperheader .gnavi ul li a{
+display: block;
+height: 70px;
+width: 120px;
+padding-top:45px;
+color: #fff;
+text-align: center;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+box-sizing: border-box;
+}
+#RESOLwrapper #wrapperheader .gnavi1 a{ 
+background: url(../images/Gnavi1.png) 50% 30% no-repeat;
+}
+#RESOLwrapper #wrapperheader .gnavi2 a{ 
+background: url(../images/Gnavi2.png) 50% 30% no-repeat;
+border-left: 1px solid #fff;
+}
+#RESOLwrapper #wrapperheader .gnavi3 a{ 
+background: url(../images/Gnavi3.png) 50% 30% no-repeat;
+border-left: 1px solid #fff;
+}
+#RESOLwrapper #wrapperheader .gnavi4 a{ 
+background: url(../images/Gnavi4.png) 50% 30% no-repeat;
+border-left: 1px solid #fff;
+}
+#RESOLwrapper #wrapperheader .gnavi5 a{ 
+border-left: 1px solid #fff;
+background: url(../images/Gnavi5.png) 50% 30% no-repeat;
+}
+#RESOLwrapper #wrapperheader .gnavi a:hover{
+color: #ccc;
+opacity:0.8;
+filter: alpha(opacity=80);
+}
+#RESOLwrapper #wrapperheader .logo img {
+margin: 8px 0 30px 20px;
+}
+
+/*----------------------------------------------------
+その他ページheader
+----------------------------------------------------*/
+#RESOLwrapper #roomheader {
+	width: 950px;
+    height:255px;
+    margin-bottom: 30px;
+    padding: 0;
+    background: url(../images/h_m_border.png) bottom center no-repeat;
+    box-shadow:rgba(22, 22, 14, 0.8) 0px 3px 6px 3px;
+
+}
+#RESOLwrapper #roomheader h2{
+width:950px;
+height:190px;
+margin:0;
+padding:0;
+}
+#RESOLwrapper #roomheader #roommenu {
+    height: 60px;
+    width: 950px;
+    background: #16160e;
+	opacity:0.8;
+	filter: alpha(opacity=80);}
+#RESOLwrapper #roomheader #roommenu .roomlogo {
+float: left;
+}
+#RESOLwrapper #roomheader #roommenu .roomlogo img{
+vertical-align:middle;
+}
+#RESOLwrapper #roomheader #roommenu .roomgnavi ul {
+float: right;
+list-style: none;
+}
+#RESOLwrapper #roomheader #roommenu .roomgnavi ul li { 
+display: inline; 
+float: left;
+}
+#RESOLwrapper #roomheader #roommenu .roomgnavi ul li a{
+display: block;
+height: 60px;
+padding-top:45px;
+color: #fff;
+text-align: center;
+text-decoration: none;
+box-sizing: border-box;
+}
+#RESOLwrapper #roomheader #roommenu .roomgnavi1 a{ 
+width: 101px;
+background: url(../images/h_m_01.png) 50% 30% no-repeat;
+}
+#RESOLwrapper #roomheader #roommenu .roomgnavi2 a{ 
+background: url(../images/h_m_02.png) 50% 30% no-repeat;
+width: 137px;
+}
+#RESOLwrapper #roomheader #roommenu .roomgnavi3 a{ 
+background: url(../images/h_m_03.png) 50% 30% no-repeat;
+width: 139px;
+}
+#RESOLwrapper #roomheader #roommenu .roomgnavi4 a{ 
+background: url(../images/h_m_04.png) 50% 30% no-repeat;
+width: 161px;
+}
+#RESOLwrapper #roomheader #roommenu .roomgnavi5 a{ 
+background: url(../images/h_m_05.png) 50% 30% no-repeat;
+width: 113px;
+}
+#RESOLwrapper #roomheader #roommenu .roomgnavi a:hover{
+color: #ccc;
+opacity:0.7;
+filter: alpha(opacity=70);
+}
+#RESOLwrapper #roomheader #roommenu .roomlogo img {
+margin: 8px 0 30px 20px;
+opacity:1;
+filter: alpha(opacity=0);
+}
+
+/*----------------------------------------------------
+ topmain
+----------------------------------------------------*/
+#RESOLwrapper #topmain{
+width: 715px;
+float: left;
+color:#fafafa;
+}
+#RESOLwrapper #topmain h2{
+height:140px;
+margin:0 0 20px 0;
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 3px;
+}
+#RESOLwrapper #topmain h3{
+width:715px;
+height:45px;
+margin:0 0 30px 0;
+color:#fafafa;
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 0px;
+}
+#RESOLwrapper #topmain p {
+line-height: 1.5em;
+}
+#RESOLwrapper #topmain a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=70);
+}
+
+#RESOLwrapper #topmain .main01,
+#RESOLwrapper #topmain .main02,
+#RESOLwrapper #topmain .main03,
+#RESOLwrapper #topmain .main04,
+#RESOLwrapper #topmain .main05{
+width:730px;
+margin:0;
+padding:0;
+position: relative;
+top:5px;
+}
+
+#RESOLwrapper #topmain .mainbanner_a {
+position:absolute;
+top:-5px;
+left:15px;
+}
+
+#RESOLwrapper #topmain .mainbanner_b {
+position:absolute;
+top:-8px;
+right:25px;
+}
+
+/*----------------------------------------------------
+ stayplan
+----------------------------------------------------*/
+#RESOLwrapper #topmain .stayplan {
+height:100px;
+margin-top: 30px;
+background: url(../images/stayplanbg.png) top left no-repeat;
+text-align: center;
+box-shadow: none;
+}
+#RESOLwrapper #topmain .stayplan h2{
+padding-top:20px;
+box-shadow: none;
+}
+
+#RESOLwrapper .plan0{
+height:230px;
+width:730px;
+margin-bottom: 5px;
+background: url(../images/plan0.png) no-repeat;
+}
+#RESOLwrapper .plan0 img{
+margin:150px 0 0 470px;
+}
+
+#RESOLwrapper .plan1{
+float: left;
+height:130px;
+width:360px;
+margin:5px 8px 0 0;
+background: url(../images/plan1.png) no-repeat;
+}
+#RESOLwrapper .plan1 img{
+margin:70px 0 0 190px;
+}
+
+#RESOLwrapper .plan2{
+float: left;
+height:130px;
+width:360px;
+margin-top:5px;
+background: url(../images/plan2.png) no-repeat;
+}
+#RESOLwrapper .plan2 img{
+margin:70px 0 0 190px;
+}
+
+#RESOLwrapper .plan3{
+float: left;
+height:130px;
+width:360px;
+margin:5px 8px 0 0;
+background: url(../images/plan3.png) no-repeat;
+}
+#RESOLwrapper .plan3 img{
+margin:70px 0 0 190px;
+}
+
+#RESOLwrapper .plan4{
+float: left;
+height:130px;
+width:360px;
+margin-top:5px;
+background: url(../images/plan4.png) no-repeat;
+}
+#RESOLwrapper .plan4 img{
+margin:70px 0 0 190px;
+}
+
+#RESOLwrapper .plan5{
+float: left;
+height:130px;
+width:360px;
+margin:5px 8px 0 0;
+background: url(../images/plan5.png) no-repeat;
+}
+#RESOLwrapper .plan5 img{
+margin:70px 0 0 190px;
+}
+
+#RESOLwrapper .planbox a:hover img {
+background-color: #fff;
+opacity:0.5;
+filter: alpha(opacity=50);
+}
+
+
+/*----------------------------------------------------
+ faq
+----------------------------------------------------*/
+#RESOLwrapper #topmain .faqnavi{
+}
+#RESOLwrapper #topmain .faqnavi ul{
+float:right;
+width: 300px;
+margin:0 0 30px 0;
+}
+#RESOLwrapper #topmain .faqnavi ul li{
+padding: 4px 0;
+list-style-image: url(../images/list_i.png);
+list-style-position: inside;
+}
+#RESOLwrapper #topmain .faqnavi a{
+color: #c89932;
+}
+#RESOLwrapper #topmain .faqnavi p{
+float: left;
+width: 400px;
+margin: 10px 0;
+padding: 0;
+line-height: 2em;
+}
+
+#RESOLwrapper #topmain dl.faqdl{
+clear: both;
+width: 715px;
+padding: 0;
+margin: 20px 0 60px 0;
+padding: 0;
+color:#fafafa;
+}
+#RESOLwrapper #topmain dl.faqdl dt{
+margin: 0;
+padding: 12px 0 12px 50px;
+color:#fafafa;
+background:#313131 url(../images/faq_q.png) 10px 50% no-repeat;
+border-bottom:#c89932 solid 2px;
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 0px inset;
+}
+#RESOLwrapper #topmain dl.faqdl dd{
+margin: 10px 0 35px 0; 
+padding: 0 0 0 50px;
+color:#fafafa;
+background: url(../images/faq_a.png) 10px 0% no-repeat;
+line-height: 1.4em;
+}
+
+/*----------------------------------------------------
+ hotelmain
+----------------------------------------------------*/
+#RESOLwrapper #topmain h3.group_h3{
+margin:20px 0;
+padding:0;
+box-shadow:none;
+}
+
+#RESOLwrapper #topmain .hotellist {
+
+}
+#RESOLwrapper #topmain .hotellist dl {
+	width: 350px;
+	height: 300px;
+	float: left;
+    margin: 5px 8px 20px 0;
+	padding: 0px 0px 0px 0px;
+    border: #c89932 solid 3px;
+background: #f9dabb;
+background: -moz-linear-gradient(top,  #f9dabb 0%, #fff 30%, #fff 100%);
+background: -webkit-linear-gradient(top,  #f9dabb 0%,#fff 30%,#fff 100%);
+background: linear-gradient(to bottom,  #f9dabb 0%,#fff 30%,#fff 100%);
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 3px;
+}
+#RESOLwrapper #topmain .hotellist dl dt {
+	width: auto;
+	font-size: 16px;
+	color: #5E3533;
+	font-weight: bold;
+	margin: 18px 0px 6px 18px;
+	padding: 2px 0px 2px 67px;
+}
+#RESOLwrapper #topmain .hotellist dl dd {
+	margin: 0px 0px 14px 18px;
+	padding: 0px 0px 0px 0px;
+    color: #313131;
+    line-height: 1.5em;
+}
+#RESOLwrapper #topmain .hotellist dl dt.ho {
+	background: url(../images/group_icon_hok.png) left center no-repeat;
+}
+#RESOLwrapper #topmain .hotellist dl dt.toh {
+	background: url(../images/group_icon_ty.png) left center no-repeat;
+}
+#RESOLwrapper #topmain .hotellist dl dt.kan {
+	background: url(../images/group_icon_ka.png) left center no-repeat;
+}
+#RESOLwrapper #topmain .hotellist dl dt.tka {
+	background: url(../images/group_icon_to.png) left center no-repeat;
+}
+#RESOLwrapper #topmain .hotellist dl dt.hok {
+	background: url(../images/group_icon_ho.png) left center no-repeat;
+}
+#RESOLwrapper #topmain .hotellist dl dt.tyu {
+	background: url(../images/group_icon_tyg.png) left center no-repeat;
+}
+#RESOLwrapper #topmain .hotellist dl dt.kyu {
+	background: url(../images/group_icon_ky.png) left center no-repeat;
+}
+
+#RESOLwrapper #topmain iframe {
+	width: 730px;
+	height: 730px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*----------------------------------------------------
+ room
+----------------------------------------------------*/
+#RESOLwrapper  #topmain .roomtop p{
+margin: 20px auto 50px auto;
+line-height: 1.8em;
+}
+
+#RESOLwrapper .roomlist{
+margin-bottom: 80px;
+}
+#RESOLwrapper #topmain .roomlist h4{
+width:715px;
+margin: 20px 0 20px 0;
+padding-bottom:4px;
+border-bottom:1px solid #c89932;
+}
+#RESOLwrapper #topmain .roomlist h4 img{
+box-shadow:none;
+}
+#RESOLwrapper  #topmain .roomlist img{
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 0px;
+}
+#RESOLwrapper  #topmain .roomlist .roomlisttext{
+}
+#RESOLwrapper #topmain .roomlist .roomlisttext p{
+margin: 20px 10px;
+line-height: 1.5em;
+}
+#RESOLwrapper #topmain .roomlist .roomlisttext table {
+margin:10px 0 0 10px;
+}
+#RESOLwrapper #topmain .roomlist .roomlisttext tr {
+float: left;
+}
+#RESOLwrapper #topmain .roomlist .roomlisttext tr th {
+width: 100px;
+text-align: center;
+padding: 3px 3px 3px 10px;
+}
+#RESOLwrapper #topmain .roomlist .roomlisttext tr td {
+width: 150px;
+padding: 3px 3px 3px 10px;
+}
+
+#RESOLwrapper #topmain table.roomam {
+margin:20px auto 70px auto;
+}
+#RESOLwrapper #topmain table.roomam tr th {
+width: 130px;
+height: 70px;
+text-align: center;
+border-bottom: 1px solid #7e6b5a;
+}
+#RESOLwrapper #topmain table.roomam tr td {
+width: 550px;
+padding: 3px 3px 3px 10px;
+border-bottom: 1px solid #7e6b5a;
+line-height: 2em;
+}
+
+/*----------------------------------------------------
+ facilitys
+----------------------------------------------------*/
+#RESOLwrapper #topmain #facilitys{
+width: 715px;
+}
+
+#RESOLwrapper #topmain #facilitys h4{
+margin-bottom:20px;
+box-shadow:none;
+}
+#RESOLwrapper #topmain #facilitys h4.facimain2h4{
+margin: 30px 0 10px 0;
+padding: 0 0 10px 0;
+border-bottom:1px solid #c89932;
+}
+#RESOLwrapper #topmain #facilitys h5.ora{
+margin:0 0 5px 0;
+font-size: 14px;
+line-height: 2em;
+}
+#RESOLwrapper #topmain #facilitys .facimain1,
+/*#RESOLwrapper #topmain #facilitys .facimain2,*/
+/*#RESOLwrapper #topmain #facilitys .facimain3*/{
+}
+#RESOLwrapper #topmain #facilitys .facimain1 .factext,
+#RESOLwrapper #topmain #facilitys .facimain3 .factext{
+line-height: 2em;
+}
+#RESOLwrapper #topmain #facilitys .facimain1 .factext{
+padding: 20px 0 70px 0;
+background: url(../images/facilitys_bg.png) right -50px no-repeat;
+line-height: 2em;
+}
+#RESOLwrapper #topmain #facilitys .facimain3 .factext{
+padding: 20px 0 60px 0;
+background: url(../images/facilitys_bg.png) right 0 no-repeat;
+line-height: 2em;
+}
+#RESOLwrapper #topmain #facilitys .facimain1 img,
+#RESOLwrapper #topmain #facilitys .facimain2 img,
+#RESOLwrapper #topmain #facilitys .facimain3 img{
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 0px;
+}
+
+#RESOLwrapper #topmain #facilitys .facimain2 .factext{
+line-height: 2em;
+}
+#RESOLwrapper #topmain #facilitys .facimain2 .factext img{
+float: right;
+width:290px;
+}
+#RESOLwrapper #topmain #facilitys .facimain2 .factext2{
+float: left;
+width:400px;
+}
+#RESOLwrapper #topmain #facilitys .facimain2 table{
+width:399px;
+margin: 30px 0 120px;
+border: none;
+font-size: 12px;
+}
+#RESOLwrapper #topmain #facilitys .facimain2 table tr th{
+padding: 10px;
+text-align: center;
+font-weight: 800;
+background-color: #59493f;
+border-bottom: 1px solid #7e6b5a;
+}
+#RESOLwrapper #topmain #facilitys .facimain2 table tr td{
+padding: 10px;
+border-bottom: 1px solid #7e6b5a;
+}
+#RESOLwrapper #topmain #facilitys .facimain3{
+margin:0;
+}
+#RESOLwrapper #topmain #facilitys .facimain3 .factext2{
+float:left;
+width:400px;
+}
+#RESOLwrapper #topmain #facilitys .facimain3 .factext2 p{
+line-height: 2em;
+}
+#RESOLwrapper #topmain #facilitys .facimain3 table.table {
+float:right;
+width:290px;
+height: 120px;
+border-top: none;
+border-bottom: 1px solid #7e6b5a;
+text-align: center;
+font-size: 12px;
+font-weight: 800;
+}
+#RESOLwrapper #topmain #facilitys .facimain3 table.table tr th {
+width:90px;
+height: 90px;
+text-align: center;
+background-color: #59493f;
+padding: 3px;
+}
+#RESOLwrapper #topmain #facilitys .facimain3 table.table tr td img{
+box-shadow:none;
+}
+#RESOLwrapper #topmain #facilitys .facimain3 p.ora{
+clear: both;
+font-size: 11px;
+}
+
+#RESOLwrapper #topmain #facilitys .fac_bender{
+}
+#RESOLwrapper #topmain #facilitys .fac_bender_box{
+float: left;
+width: 230px;
+margin-right:7px;
+}
+#RESOLwrapper #topmain #facilitys .fac_bender_box img{
+margin-bottom: 6px;
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 0px;
+}
+#RESOLwrapper #topmain .fac_bender_box h5{
+margin: 10px 0;
+padding: 10px 0;
+background-color: #59493f;
+text-align: center;
+}
+#RESOLwrapper #topmain #facilitys .fac_bender_box p{
+padding-bottom: 8px !important;
+font-size: 12px;
+text-align: justify;
+}
+
+/*----------------------------------------------------
+ access
+----------------------------------------------------*/
+#RESOLwrapper #topmain #accessmap iframe {
+    width: 715px;
+    height: 650px;
+    margin: 0 auto 50px;
+    padding: 0;
+}
+#RESOLwrapper #topmain .accesstop p{
+line-height: 2em;
+	margin:0;
+}
+
+#RESOLwrapper #topmain .accesslist{
+	margin-bottom: 10px;
+}
+
+#RESOLwrapper #topmain .access_img_box{
+	margin-bottom: 40px;
+}
+
+#RESOLwrapper #topmain .block_area{
+	margin: 30px 0;
+}
+
+#RESOLwrapper #topmain .block3_box{
+	float: left;
+	width: 230px;
+	margin-right: 10px;
+}
+
+ #RESOLwrapper #topmain .block3_box img{
+	margin-bottom: 10px;
+}
+
+#RESOLwrapper #topmain .block3_box p{
+	padding-bottom: 8px!important;
+	margin-bottom: 10px!important;
+	border-bottom: dotted 1px #fff;
+}
+
+#RESOLwrapper #topmain .block3_box p.boxtext{
+	padding-left: 10px!important;
+	border-bottom: none;
+	font-size: 11px;
+	text-align: justify;
+    line-height: 1.4em;
+}
+
+#RESOLwrapper #topmain .block3_box strong{
+	font-size: 18px;
+	color: #fff;
+}
+
+#RESOLwrapper #topmain .m0{
+	margin-right: 0;
+}
+
+/*----------------------------------------------------
+ rightmenu
+----------------------------------------------------*/
+#RESOLwrapper #rightmenu {
+	width: 200px;
+	float: right;
+	margin: 0 0 20px 0;
+	padding: 0;
+    text-align: center;
+}
+
+#RESOLwrapper #rightmenu p {
+}
+
+#RESOLwrapper #rightmenu h2 {
+	margin: 0;
+	padding: 5px 0;
+}
+
+#RESOLwrapper #rightmenu .re {
+    width: 194px;
+    height: 219px;
+	background: url(../images/r_yotei_bg.png) 50% 50% no-repeat;
+	margin: 20px auto;
+	padding: 0;
+}
+
+#RESOLwrapper #rightmenu ul.planbtn {
+	margin-bottom: 5px;
+}
+#RESOLwrapper #rightmenu ul.planbtn li {
+}
+
+#RESOLwrapper #rightmenu ul.btn {
+	width: 170px;
+	margin-left:23px;
+	padding: 0;
+}
+#RESOLwrapper #rightmenu ul.btn li {
+	width: 73px;
+	float: left;
+	display: inline;
+	margin:  0;
+	padding: 0;
+}
+
+#RESOLwrapper #rightmenu ul.banner {
+}
+#RESOLwrapper #rightmenu ul.banner li {
+	width: 200px;
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+#RESOLwrapper #rightmenu ul.banner li img {
+}
+
+#RESOLwrapper #rightmenu a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
+
+/*----------------------------------------------------
+ footer
+----------------------------------------------------*/
+
+#RESOLwrapper #footer {
+	width: 950px;
+	clear: both;
+}
+#RESOLwrapper #footer p {
+    text-align: right;
+}
+
+#RESOLwrapper #footer p a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
+
+/*----------------------------------------------------
+ style end
+----------------------------------------------------*/

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/* style.css
+===============================================================================
+
+	■information■
+	このCSSファイルは、楽天カスタマイズTOPページのみで使用しています。
+	リンク色などの細かい設定は施設ごとに個別設定
+	
+===============================================================================
+*/
+
+
+
+/*----------------------------------------------------
+ rakuten_banner
+----------------------------------------------------*/
+/*div.rakuten_banner {
+	width: 950px;
+	font-size: 12px;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+div.rakuten_banner p {
+	width: 730px;
+	text-align: center;
+	margin: 0px auto 10px auto;
+	padding: 0px 0px 0px 0px;
+}
+div.rakuten_banner img {
+	border-style: none;
+	display: block;
+	text-align: center;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+div.rakuten_banner a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}*/
+
+
+
+
+/*通常バナーをセンタリングの場合*/
+
+div.rakuten_banner {
+	width: 950px;
+	overflow: hidden;
+	zoom: 1;
+	font-size: 12px;
+	clear: both;
+	line-height: 1.5em;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+}
+div.rakuten_banner p {
+	width: 730px;
+	text-align: center;
+	margin: 0px auto 10px auto;
+	padding: 0px 0px 0px 0px;
+}
+
+
+div.rakuten_banner p.right {
+	width: 460px;
+	text-align: center;
+	float: right;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+div.rakuten_banner p.left {
+	width: 460px;
+	text-align: center;
+	float: left;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+
+div.rakuten_banner img {
+	text-align: center;
+	border-style: none;
+	display: block;
+	margin: 0px auto 3px auto;
+	padding: 0px 0px 0px 0px;
+}
+div.rakuten_banner a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
+
+
+
+
+
+
+
+
+/*通常バナーをフロートさせた場合　未使用*/
+
+div.rakuten_banner2 {
+	width: 950px;
+	overflow: hidden;
+	zoom: 1;
+	font-size: 12px;
+	clear: both;
+	line-height: 1.5em;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+div.rakuten_banner2 p {
+	width: 730px;
+	float: left;
+	display: inline;
+	text-align: center;
+	margin: 0px 0px 10px 110px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+div.rakuten_banner2 p.right {
+	width: 460px;
+	text-align: center;
+	float: right;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+div.rakuten_banner2 p.left {
+	width: 460px;
+	text-align: center;
+	float: left;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+
+div.rakuten_banner2 img {
+	text-align: center;
+	border-style: none;
+	display: block;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+div.rakuten_banner2 a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
+
+
+
+
+
+
+
+/*----------------------------------------------------
+ style end
+----------------------------------------------------*/

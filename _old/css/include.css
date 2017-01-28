@@ -1,0 +1,987 @@
+@charset "UTF-8";
+
+body {
+	font-family: "ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro W3","ヒラギノ角ゴ Pro W3","Osaka";
+	background: #FFF url(../images/bg.png);
+}
+body#bg02 {
+	font-family: "ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro W3","ヒラギノ角ゴ Pro W3","Osaka";
+	background: none;
+}
+
+
+#RESOLwrapper {
+	font-family: "ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro W3","ヒラギノ角ゴ Pro W3","Osaka";
+}
+
+#RESOLwrapper ul li,
+#RESOLwrapper ol li {
+	list-style: none;
+}
+#RESOLwrapper img {
+	border-style: none;
+}
+#RESOLwrapper h2,h3 {
+	clear: both;
+	font-size: 13px;
+}
+#RESOLwrapper a { color: #720626; text-decoration: underline; }
+#RESOLwrapper a:link { color: #720626; text-decoration: underline; }
+#RESOLwrapper a:visited { color: #720626; text-decoration: underline; }
+#RESOLwrapper a:hover { color: #720626; text-decoration: none; }
+
+#RESOLwrapper .red {
+	color: #990000 !important;
+}
+#RESOLwrapper .reds {
+	color: #990000;
+	font-size: 11px;
+	line-height: 1.4;
+}
+#RESOLwrapper .ora {
+	color: #C64018;
+}
+#RESOLwrapper .pink {
+	color: #E6B991;
+}
+#RESOLwrapper .green {
+	color: #305814;
+}
+
+/*----------------------------------------------------
+ table style
+----------------------------------------------------*/
+
+#RESOLwrapper table.table {
+	border-top: 1px solid #D6C6A0;
+	border-bottom: 1px solid #D6C6A0;
+}
+#RESOLwrapper table.table tr th {
+	font-family: "ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro W3","ヒラギノ角ゴ Pro W3","Osaka";
+	font-size: 13px;
+	line-height: 1.8em;
+	font-weight: normal;
+	background-color: #D6C6A0;
+	padding: 3px;
+}
+#RESOLwrapper table.table tr td {
+	font-family: "ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro W3","ヒラギノ角ゴ Pro W3","Osaka";
+	font-size: 13px;
+	line-height: 1.4em;
+	padding: 3px 3px 3px 10px;
+}
+
+
+/*----------------------------------------------------
+ wrapper
+----------------------------------------------------*/
+#RESOLwrapper {
+	overflow: hidden;
+	width: 950px;
+	text-align: left;
+	font-family: "ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro W3","ヒラギノ角ゴ Pro W3","Osaka";
+	line-height: 1.5em;
+	color: #2C2C33;
+	font-size: 13px;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper p,
+#RESOLwrapper ul,
+#RESOLwrapper ol,
+#RESOLwrapper li,
+#RESOLwrapper h1,
+#RESOLwrapper h2,
+#RESOLwrapper h3,
+#RESOLwrapper h4,
+#RESOLwrapper dl,
+#RESOLwrapper dt,
+#RESOLwrapper dd {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#RESOLwrapper #bg {
+	width: 950px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#RESOLwrapper iframe {
+	width: 730px;
+	height: 550px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+/*----------------------------------------------------
+ 10banner
+----------------------------------------------------*/
+
+#RESOLwrapper #banner10 {
+	width: 950px;
+	background: #FFF;
+	font-size: 14px;
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
+}
+#RESOLwrapper #banner10 a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=50);
+}
+
+
+
+/*----------------------------------------------------
+ header
+----------------------------------------------------*/
+
+#RESOLwrapper #header {
+	width: 950px;
+margin: 0;
+padding: 0; 
+}
+
+#RESOLwrapper #header #menu {
+    height: 70px;
+    width: 950px;
+    padding:0;
+	margin:0 0 20px 0;
+    background: #16160e;
+	opacity:0.8;
+	filter: alpha(opacity=70);
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 0px;
+}
+#RESOLwrapper #header .logo {
+float: left;
+}
+#RESOLwrapper #header .logo img{
+vertical-align:middle;
+}
+#RESOLwrapper #header .gnavi ul {
+float: right;
+margin: 0;
+padding: 0; 
+list-style: none;
+}
+#RESOLwrapper #header .gnavi ul li { 
+display: inline; 
+padding:0; 
+margin:0;
+float: left;
+}
+#RESOLwrapper #header .gnavi ul li a{
+display: block;
+height: 70px;
+width: 120px;
+padding-top:45px;
+color: #fff;
+text-align: center;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+box-sizing: border-box;
+}
+#RESOLwrapper #header .gnavi1 a{ 
+background: url(../images/Gnavi1.png) 50% 30% no-repeat;
+}
+#RESOLwrapper #header .gnavi2 { 
+background: url(../images/Gnavi2.png) 50% 30% no-repeat;
+border-left: 1px solid #fff;
+}
+#RESOLwrapper #header .gnavi3 { 
+background: url(../images/Gnavi3.png) 50% 30% no-repeat;
+border-left: 1px solid #fff;
+}
+#RESOLwrapper #header .gnavi4 { 
+background: url(../images/Gnavi4.png) 50% 30% no-repeat;
+border-left: 1px solid #fff;
+}
+#RESOLwrapper #header .gnavi5 { 
+border-left: 1px solid #fff;
+background: url(../images/Gnavi5.png) 50% 30% no-repeat;
+}
+#RESOLwrapper #header .gnavi ul li a:hover{
+color: #ccc;
+}
+#RESOLwrapper #header .logo img {
+	opacity:1;
+	filter: alpha(opacity=0);
+}
+
+
+
+/*----------------------------------------------------
+ topmain
+----------------------------------------------------*/
+
+#RESOLwrapper #topmain{
+	width: 730px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#RESOLwrapper #topmain .main01,
+#RESOLwrapper #topmain .main02,
+#RESOLwrapper #topmain .main03,
+#RESOLwrapper #topmain .main04,
+#RESOLwrapper #topmain .main05{
+height:500px;
+width:740px;
+margin: 0;
+padding: 0;
+}
+#RESOLwrapper #topmain .main01{
+background: url(../images/01.png) no-repeat;
+}
+#RESOLwrapper #topmain .main02{
+background: url(../images/02.png) no-repeat;
+text-align: right;
+}
+#RESOLwrapper #topmain .main03{
+background: url(../images/03.png) no-repeat;
+}
+#RESOLwrapper #topmain .main04{
+background: url(../images/04.png) no-repeat;
+text-align: right;
+}
+#RESOLwrapper #topmain .main05{
+background: url(../images/05.png) no-repeat;
+}
+
+#RESOLwrapper #topmain .mainbanner_a {
+	margin:-5px 0 0 20px;
+	padding:0;
+}
+
+#RESOLwrapper #topmain .mainbanner_b {
+	margin:-5px 20px 0 0;
+	padding:0;
+}
+
+
+
+/*----------------------------------------------------
+ stayplan
+----------------------------------------------------*/
+
+#RESOLwrapper #topmain .stayplan {
+height:125px;
+background: url(../images/stayplanbg.png) top left no-repeat;
+text-align: center;
+margin-top:-30px;
+}
+#RESOLwrapper #topmain .stayplan h2{
+margin-top:30px;
+}
+
+#RESOLwrapper .plan0{
+height:230px;
+width:750px;
+margin-bottom: 5px;
+background: url(../images/plan0.png) no-repeat;
+}
+#RESOLwrapper .plan0 img{
+padding:150px 0 0 450px;
+}
+
+#RESOLwrapper .plan1{
+float: left;
+height:130px;
+width:360px;
+padding: 5px 5px 0;
+background: url(../images/plan1.png) no-repeat;
+}
+#RESOLwrapper .plan1 img{
+padding:70px 0 0 190px;
+}
+
+#RESOLwrapper .plan2{
+float: left;
+height:130px;
+width:360px;
+background: url(../images/plan2.png) no-repeat;
+}
+#RESOLwrapper .plan2 img{
+padding:70px 0 0 190px;
+}
+
+#RESOLwrapper .plan3{
+float: left;
+height:130px;
+width:360px;
+padding: 5px 5px 0;
+background: url(../images/plan3.png) no-repeat;
+}
+#RESOLwrapper .plan3 img{
+padding:70px 0 0 190px;
+}
+
+#RESOLwrapper .plan4{
+float: left;
+height:130px;
+width:360px;
+background: url(../images/plan4.png) no-repeat;
+}
+#RESOLwrapper .plan4 img{
+padding:70px 0 0 190px;
+}
+
+
+
+/*----------------------------------------------------
+ faq
+----------------------------------------------------*/
+
+#RESOLwrapper #topmain .faqh2{
+width:750px;
+height:140px;
+margin:0 0 20px 0;
+padding:0;
+background: url(../images/Oon2GU.jpg) no-repeat;
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 3px;
+}
+#RESOLwrapper #topmain .faqnavi{
+color:#fafafa;
+}
+#RESOLwrapper #topmain .faqnavi ul{
+float:right;
+margin:0 50px 30px 0;
+padding:0px;
+}
+#RESOLwrapper #topmain .faqnavi ul li{
+margin: 0;
+padding: 4px 0;
+list-style-image: url(../images/list_i.png);
+}
+#RESOLwrapper #topmain .faqnavi a{
+color: #c89932;
+}
+#RESOLwrapper #topmain .faqnavi p{
+float: left;
+margin: 10px 0;
+padding: 0;
+line-height: 200%;
+}
+
+#RESOLwrapper #topmain .faqcontent{
+clear: both;
+margin: 20px 0 0;
+padding: 0;
+line-height: 200%;
+}
+
+#RESOLwrapper #topmain .faqcontent h3{
+margin:0 0 30px 0;
+padding:0px;
+color:#fafafa;
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 0px;
+}
+#RESOLwrapper #topmain .faqcontent dl{
+margin: 10px 0 40px 0;
+padding: 0;
+color:#fafafa;
+}
+#RESOLwrapper #topmain .faqcontent dt{
+margin: 0;
+padding: 8px 0 8px 50px;
+color:#fafafa;
+background:#313131 url(../images/faq_q.png) 10px 50% no-repeat;
+border-bottom:#c89932 solid 2px;
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 0px inset;
+}
+#RESOLwrapper #topmain .faqcontent dd{
+margin: 10px 0 25px 0; 
+padding: 0 0 0 50px;
+color:#fafafa;
+background: url(../images/faq_a.png) 10px 0% no-repeat;
+}
+
+
+
+/*----------------------------------------------------
+ hotelmain
+----------------------------------------------------*/
+
+#RESOLwrapper #hotelmain {
+	width: 730px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 40px 0px;
+}
+
+#RESOLwrapper #hotelmain h2{
+width:750px;
+height:140px;
+margin:0 0 20px 0;
+padding:0;
+background: url(../images/group_h2.png) no-repeat;
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 3px;
+}
+
+#RESOLwrapper #hotelmain p {
+	width: 730px;
+    margin: 30px 0;
+    padding: 0;
+    line-height: 200%;
+    color:#fafafa;
+}
+
+#RESOLwrapper #hotelmain h3{
+margin:0 0 30px 0;
+padding:0px;
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 0px;
+}
+
+#RESOLwrapper #hotelmain .maptab {
+	width: 730px;
+	float: left;
+	/*position: relative;*/
+	margin: 0px 0px 60px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#RESOLwrapper #hotelmain .hotellist {
+	width: 730px;
+	float: left;
+	border-bottom: #C5B89C solid 1px;
+	margin: 0px 0px 25px 0px;
+	padding: 0px 0px 25px 0px;
+}
+#RESOLwrapper #hotelmain .hotellist dl {
+	width: 350px;
+	height: 300px;
+	float: left;
+    margin: 5px 8px 50px 0;
+	padding: 0px 0px 0px 0px;
+    border: #c89932 solid 3px;
+background: #f9dabb;
+background: -moz-linear-gradient(top,  #f9dabb 0%, #ffffff 30%, #ffffff 100%);
+background: -webkit-linear-gradient(top,  #f9dabb 0%,#ffffff 30%,#ffffff 100%);
+background: linear-gradient(to bottom,  #f9dabb 0%,#ffffff 30%,#ffffff 100%);
+box-shadow:rgba(0, 0, 0, 0.8) 0px 3px 6px 3px;
+}
+
+#RESOLwrapper #hotelmain .hotellist dl dt {
+	width: auto;
+	font-size: 16px;
+	color: #5E3533;
+	font-weight: bold;
+	margin: 18px 0px 6px 18px;
+	padding: 2px 0px 2px 67px;
+}
+#RESOLwrapper #hotelmain .hotellist dl dd {
+	width: auto;
+	margin: 0px 0px 14px 18px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+#RESOLwrapper #hotelmain .hotellist dl dt.ho {
+	background: url(../images/group_icon_hok.png) left center no-repeat;
+}
+#RESOLwrapper #hotelmain .hotellist dl dt.toh {
+	background: url(../images/group_icon_ty.png) left center no-repeat;
+}
+#RESOLwrapper #hotelmain .hotellist dl dt.kan {
+	background: url(../images/group_icon_ka.png) left center no-repeat;
+}
+#RESOLwrapper #hotelmain .hotellist dl dt.tka {
+	background: url(../images/group_icon_to.png) left center no-repeat;
+}
+#RESOLwrapper #hotelmain .hotellist dl dt.hok {
+	background: url(../images/group_icon_ho.png) left center no-repeat;
+}
+#RESOLwrapper #hotelmain .hotellist dl dt.tyu {
+	background: url(../images/group_icon_tyg.png) left center no-repeat;
+}
+#RESOLwrapper #hotelmain .hotellist dl dt.kyu {
+	background: url(../images/group_icon_ky.png) left center no-repeat;
+}
+
+.btnall {
+	width:103px;
+	height:43px;
+	border:0;
+	display: block;
+	background: url(../images/tab_all.png) no-repeat left top;
+	background: url(../images/tab_all.png) no-repeat left top;
+	text-indent:-9898px;
+	font-size: 0px;
+	cursor:pointer;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.btnall:hover,
+.btnall:focus {
+	background-position: left -43px;
+}
+
+.btnhokkaido {
+	width:103px;
+	height:43px;
+	border:0;
+	display: block;
+	background: url(../images/tab_hokkaido.png) no-repeat left top;
+	text-indent:-9898px;
+	font-size: 0px;
+	cursor:pointer;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.btnhokkaido:hover,
+.btnhokkaido:focus {
+	background-position: left -43px;
+}
+
+.btntohoku {
+	width:103px;
+	height:43px;
+	border:0;
+	display: block;
+	background: url(../images/tab_tohoku.png) no-repeat left top;
+	text-indent:-9898px;
+	font-size: 0px;
+	cursor:pointer;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.btntohoku:hover,
+.btntohoku:focus {
+	background-position: left -43px;
+}
+
+.btnkanto {
+	width:103px;
+	height:43px;
+	border:0;
+	display: block;
+	background: url(../images/tab_kantou.png) no-repeat left top;
+	text-indent:-9898px;
+	font-size: 0px;
+	cursor:pointer;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.btnkanto:hover,
+.btnkanto:focus {
+	background-position: left -43px;
+}
+
+.btntokai {
+	width:103px;
+	height:43px;
+	border:0;
+	display: block;
+	background: url(../images/hotellist/tab_tyubu.png) no-repeat left top;
+	text-indent:-9898px;
+	font-size: 0px;
+	cursor:pointer;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.btntokai:hover,
+.btntokai:focus {
+	background-position: left -43px;
+}
+
+.btntyugoku {
+	width:103px;
+	height:43px;
+	border:0;
+	display: block;
+	background: url(../images/tab_hokuriku.png) no-repeat left top;
+	text-indent:-9898px;
+	font-size: 0px;
+	cursor:pointer;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.btntyugoku:hover,
+.btntyugoku:focus {
+	background-position: left -43px;
+}
+
+.btnkyusyu {
+	width:106px !important;
+	height:43px;
+	border:0;
+	display: block;
+	background: url(../images/tab_kyuusyuu.png) no-repeat left top;
+	text-indent:-9898px;
+	font-size: 0px;
+	cursor:pointer;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.btnkyusyu:hover,
+.btnkyusyu:focus {
+	background-position: left -43px;
+}
+
+#RESOLwrapper #hotelmain iframe {
+	width: 730px;
+	height: 750px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*----------------------------------------------------
+ contmain
+----------------------------------------------------*/
+
+#RESOLwrapper #contmain {
+	width: 950px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+/*----------------------------------------------------
+ topmenu
+----------------------------------------------------*/
+
+#RESOLwrapper #topmenu {
+	width: 200px;
+	float: right;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#RESOLwrapper #topmenu p {
+	margin: 0px 0px 17px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#RESOLwrapper #topmenu h2 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#RESOLwrapper #topmenu .re {
+	width: 200px;
+	float: left;
+	background: url(http://img.travel.rakuten.co.jp/share/image_up/11355/LARGE/m2JZ4c.gif) top left repeat-y;
+	margin: 0px 0px 22px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#RESOLwrapper #topmenu ul.planbtn {
+	width: 200px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 19px 0px;
+}
+#RESOLwrapper #topmenu ul.planbtn li {
+	width: 170px;
+	float: left;
+	display: inline;
+	margin: 0px 0px 0px 14px;
+	padding: 0px 0px 8px 0px;
+}
+#RESOLwrapper #topmenu ul.planbtn li img {
+	vertical-align: top;
+}
+
+
+
+
+
+#RESOLwrapper #topmenu ul.btn {
+	width: 200px;
+	float: left;
+	background: url(http://img.travel.rakuten.co.jp/share/image_up/11355/LARGE/DUjqcA.gif) bottom left no-repeat;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper #topmenu ul.btn li {
+	width: 84px;
+	float: left;
+	display: inline;
+	margin: 0px 0px 0px 14px;
+	padding: 0px 0px 21px 0px;
+}
+#RESOLwrapper #topmenu ul.btn li img {
+	vertical-align: top;
+}
+
+
+
+
+
+
+#RESOLwrapper #topmenu ul.banner {
+	width: 200px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper #topmenu ul.banner li {
+	width: 200px;
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper #topmenu ul.banner li img {
+	vertical-align: top;
+}
+
+#RESOLwrapper #topmenu a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=70);
+}
+
+/*----------------------------------------------------
+ topmain
+----------------------------------------------------*/
+
+#RESOLwrapper #topmain {
+	width: 730px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper #topmain h2 {
+	width: 730px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper #topmain p.nikkei {
+	width: 550px;
+	float: left;
+	display: inline;
+	margin: 0px 0px 30px 90px;
+	padding: 0px 0px 0px 0px;
+}
+
+#RESOLwrapper #topmain a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=70);
+}
+
+
+/*----------------------------------------------------
+planbox
+----------------------------------------------------*/
+
+#RESOLwrapper .planbox {
+	width: 730px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#RESOLwrapper .planbox h2 {
+	width: 730px;
+	height: 60px;
+	float: left;
+	background: url(http://img.travel.rakuten.co.jp/share/image_up/11355/LARGE/zm1j9R.jpeg) top left no-repeat;
+	margin: 0px 0px 6px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper .planbox h2 a {
+	width: 137px;
+	float: right;
+	margin: 5px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+
+#RESOLwrapper .planlist {
+	width: 730px;
+	float: left;
+	border-bottom: #CCC solid 1px;
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 15px 0px;
+}
+
+
+
+
+#RESOLwrapper .planbox ul {
+	width: 730px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper .planbox ul li {
+	width: 345px;
+	float: left;
+	display: inline;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper .planbox ul li img {
+	width: 130px;
+	float: left;
+	display: inline;
+	margin: 0px 10px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#RESOLwrapper .planbox ul li strong {
+	width: 200px;
+	float: left;
+	font-size: 14px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#RESOLwrapper .planbox a strong { text-decoration: underline; }
+#RESOLwrapper .planbox a strong:link { color: #720626; text-decoration: none; }
+#RESOLwrapper .planbox a strong:visited { color: #720626; text-decoration: none; }
+#RESOLwrapper .planbox a strong:hover { color: #720626; text-decoration: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#RESOLwrapper #topmain .loby {
+	width: 730px;
+	float: left;
+	border-bottom: #CCC solid 1px;
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 30px 0px;
+}
+#RESOLwrapper #topmain .loby h2 {
+	width: 730px;
+	float: left;
+	margin: 0px 0px 29px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#RESOLwrapper #topmain .loby dl {
+	width: 730px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper #topmain .loby dl dt {
+	width: 480px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper #topmain .loby dl dd {
+	width: 250px;
+	float: left;
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+
+
+#RESOLwrapper #topmain .relax {
+	width: 730px;
+	float: left;
+	border-bottom: #CCC solid 1px;
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 30px 0px;
+}
+#RESOLwrapper #topmain .relax h2 {
+	width: 730px;
+	float: left;
+	margin: 0px 0px 29px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#RESOLwrapper #topmain .relax dl {
+	width: 730px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper #topmain .relax dl dt {
+	width: 373px;
+	float: right;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper #topmain .relax dl dd {
+	width: 357px;
+	float: left;
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+
+/*----------------------------------------------------
+ footer
+----------------------------------------------------*/
+
+#RESOLwrapper #footer {
+	width: 950px;
+	clear: both;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#RESOLwrapper #footer p {
+	width: 199px;
+	float: right;
+	display: inline;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#RESOLwrapper #footer p a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=50);
+}
+
+
+
+/*----------------------------------------------------
+bxSlider
+----------------------------------------------------*/
+.bx-wrapper .bx-viewport {
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+border:none;
+background-color:transparent;
+}
+
+
+/*----------------------------------------------------
+ style end
+----------------------------------------------------*/
